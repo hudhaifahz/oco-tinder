@@ -19,8 +19,6 @@ const Card = ({ i, x, y, rot, scale, trans, bind, data, liked }) => {
         liked[liked.length-2].map(food => <h4 style={{textAlign:"center"}}>{food}</h4>) : null :
         null}
       </div>
-      {/* <div style={{ display: i < 1 ? "block" : "none", boxShadow: 'none', backgroundColor: '#6ac393'}}></div>
-      <div style={{ display: i < 1 ? "block" : "none", boxShadow: 'none', backgroundColor: '#6ac393'}}></div> */}
       <animated.div
         {...bind(i)}
         style={{
@@ -35,7 +33,7 @@ const Card = ({ i, x, y, rot, scale, trans, bind, data, liked }) => {
               <img src={pic} key={index} alt="profilePicture" />
             ))}
           {/* </Carousel> */}
-            <h2>{i}/{data.length-1}</h2>
+            <h2>{data.length-(i)}/{data.length-1}</h2>
           <h2>{name},</h2>
           <h5>{text}</h5>
         </div>

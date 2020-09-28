@@ -44,10 +44,9 @@ function Deck() {
 
       const dir = xDir < 0 ? -1 : 1;
 
+      //Updates the Liked List
       if (!down && trigger) gone.add(index);
-      if (!down && trigger) console.log(dir)
       if (!down && trigger && dir === 1) likedArray.push(data[index].name)
-      if (!down && trigger && dir === 1) console.log("likedArray", likedArray)
       if (!down && trigger && dir === 1) setLiked(
         (food) => food.concat([likedArray]))
 
