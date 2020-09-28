@@ -16,7 +16,7 @@ body {
 }
 
 #root {
-  background: salmon;
+  background: #6ac393;
   position: fixed;
   overflow: hidden;
   width: 100%;
@@ -56,6 +56,7 @@ img {
   height: 380px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  width: 100%;
 }
 
 button[aria-label="previous"],
@@ -89,6 +90,10 @@ h5:last-of-type {
 
 .card {
   height: 500px !important;
+}
+
+.nocard {
+  background-color: #6ac393;
 }
 
 .slider-control-bottomcenter {

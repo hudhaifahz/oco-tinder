@@ -1,43 +1,42 @@
 export default [
   {
     pics: [
-      "https://images.unsplash.com/photo-1514924801778-1db0aba75e9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
     ],
-    name: "Chloe",
-    age: 29,
-    distance: "3 miles away",
+    name: "",
+    age: 1,
+    distance: "",
     text:
-      "I keep calling the plumber round, and he keeps fixing stuff. Where am I going wrong?"
+      ""
   },
   {
     pics: [
-      "https://images.unsplash.com/photo-1456885284447-7dd4bb8720bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
-      "https://images.unsplash.com/photo-1532635270-c09dac425ca9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+      "https://cdn.shopify.com/s/files/1/0328/1823/3484/products/Meatball_Pasta.jpg?v=1583040350"
     ],
-    name: "Jane",
-    age: 22,
-    distance: "2 miles away",
+    name: "Meatball Pasta",
     text:
-      "On the first date I will carve our initials in a tree. It's the most romantic way to let you know I have a knife."
+      "Beef & pork meatballs simmered in our house-made tomato sauce and served over zucchini noodles."
   },
   {
     pics: [
-      "https://images.unsplash.com/photo-1584287981937-67ab60932edf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+      "https://cdn.shopify.com/s/files/1/0328/1823/3484/products/IMG_80072_1.jpg?v=1599427269",
     ],
-    name: "Savannah",
-    age: 18,
-    distance: "1 mile away",
-    text: "A little known fact is that I cover about 40% of Africa."
+    name: "Chicken Teriyaki Bowl",
+    text:
+      "The perfect healthy dinner! Our teriyaki bowls include a base of sushi rice, braised cabbage, steamed vegetables tossed in teriyaki sauce, pickled ginger and teriyaki chicken!"
   },
   {
     pics: [
-      "https://images.unsplash.com/photo-1527628217451-b2414a1ee733?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-      "https://images.unsplash.com/photo-1546728150-b3cbeddb6f6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+      "https://cdn.shopify.com/s/files/1/0328/1823/3484/products/BeefChickpeaandRicePilafTayybeh.jpg?v=1585625443"
     ],
-    name: "Heather",
-    age: 32,
-    distance: "4 miles away",
+    name: "Beef and Chicken Pilaf",
+    text: "Pilafs are a Middle Eastern tradition and this one is a favourite! A full meal on one plate, this pilaf is a mix of perfectly seasoned ground beef, nutritious chickpeas and rice for a perfect meal."
+  },
+  {
+    pics: [
+      "https://cdn.shopify.com/s/files/1/0328/1823/3484/products/MexicanFalafelBowl.jpg?v=1595602952",
+    ],
+    name: "Mexican Falafel Bowl",
     text:
-      "Respiratory Therapy Student. Cute enough to take your breath away, smart enough to bring it back"
+      "We are really excited to share this bowl with you! We discovered that combining our mindful meat with chickpeas, makes an AH-MAZINGG falafel, and what better way to elevate that with some unexpected spices?!"
   }
 ];

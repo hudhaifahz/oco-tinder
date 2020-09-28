@@ -23,6 +23,9 @@ const trans = (r, s) =>
 function Deck() {
   const [gone] = useState(() => new Set());
 
+  var likedArray = []
+  const [liked, setLiked] = useState([]);
+
   const [props, set] = useSprings(data.length, i => ({
     ...to(i),
     from: from(i)
@@ -42,8 +45,14 @@ function Deck() {
       const dir = xDir < 0 ? -1 : 1;
 
       if (!down && trigger) gone.add(index);
+      if (!down && trigger) console.log(dir)
+      if (!down && trigger && dir === 1) likedArray.push(data[index].name)
+      if (!down && trigger && dir === 1) console.log("likedArray", likedArray)
+      if (!down && trigger && dir === 1) setLiked(
+        (food) => food.concat([likedArray]))
 
       set(i => {
+
         if (index !== i) return;
         const isGone = gone.has(index);
 
@@ -66,7 +75,7 @@ function Deck() {
     }
   );
 
-  return props.map(({ x, y, rot, scale }, i) => (
+  return props.map(({ x, y, rot, scale}, i) => (
     <Card
       key={i}
       i={i}
@@ -77,6 +86,7 @@ function Deck() {
       trans={trans}
       data={data}
       bind={bind}
+      liked = {liked}
     />
   ));
 }
