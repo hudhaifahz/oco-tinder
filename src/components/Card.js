@@ -16,7 +16,8 @@ const Card = ({ i, x, y, rot, scale, trans, bind, data, liked }) => {
         <h3 style={{textAlign: 'center'}}>LIKED FOODS</h3>
         {(i < 1) ?
         liked[liked.length-2] ?
-        liked[liked.length-2].map(food => <h4 style={{textAlign:"center"}}>{food}</h4>) : null :
+        liked[liked.length-2].map(food => <h4 style={{textAlign:"center"}}>{food}</h4>) : 
+        <h4 style={{textAlign:"center"}}>{liked[0]}</h4> :
         null}
       </div>
       <animated.div
